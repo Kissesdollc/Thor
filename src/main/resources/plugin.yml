@@ -1,0 +1,16 @@
+name: Thor
+version: 1.0.0-SNAPSHOT
+main: org.kissesdollc.thor.Thor
+
+commands:
+  thor:
+    permission: command.thor
+    permission-message: '§cNo permission'
+
+permissions:
+  command.thor:
+    description: Gives permission to run the /thor command
+    default: op
+
+
+
